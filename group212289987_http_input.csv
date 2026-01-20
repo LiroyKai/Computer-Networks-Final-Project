@@ -1,0 +1,7 @@
+msg_id,app_protocol,src_app,dst_app,src_port,dst_port,message,timestamp
+1,HTTP,client_browser,web_server,12345,80,GET /index.html HTTP/1.1,0.1
+2,HTTP,web_server,client_browser,80,12345,HTTP/1.1 200 OK,0.2
+3,HTTP,client_browser,web_server,12346,80,GET /images/logo.png HTTP/1.1,0.5
+4,HTTP,web_server,client_browser,80,12346,HTTP/1.1 200 OK,0.6
+5,HTTP,client_browser,web_server,12347,80,POST /login HTTP/1.1,1.0
+6,HTTP,web_server,client_browser,80,12347,HTTP/1.1 302 Found,1.1
