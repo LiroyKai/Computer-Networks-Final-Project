@@ -26,6 +26,7 @@ This project consists of two main parts demonstrating theoretical and practical 
 Open a terminal and run:
 ```bash
 python server.py
+```
 
 ### 2. How to Run the Client
 Open a NEW terminal window (do not close the server) and run:
