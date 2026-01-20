@@ -33,10 +33,11 @@ Open a NEW terminal window (do not close the server) and run:
 ```bash
 python Gui_Client.py
 ```
+##
 
-This project uses In-Memory Storage (Python Lists & Dictionaries) instead of an external database file, as allowed for this scope.
+### This project uses In-Memory Storage (Python Lists & Dictionaries) instead of an external database file, as allowed for this scope.
 
-    Active Clients: Managed via a Python dictionary mapping username -> socket_object.
+* Active Clients: Managed via a Python dictionary mapping username -> socket_object.
 
-    Chat History: Stored temporarily in the GUI runtime memory
+* Chat History: Stored temporarily in the GUI runtime memory
 
